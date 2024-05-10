@@ -1,0 +1,17 @@
+sort1 uses: Bubble sort
+
+How do you know?: The sorting time for the sorted file is significantly shorter compared to the random and reversed files.
+
+sort2 uses: Merge sort
+
+How do you know?: The sorting times for all types with sort2 are the shortest, corresponding to the minimum complexity of merge sort, O(nlogn).
+
+sort3 uses: Selection sort
+
+How do you know?: Because for the three file types, the sorting time of sort3 is much greater than that of sort2, and the algorithmic complexity of selection sort, O(n²), is greater than that of merge sort, O(nlogn).
+
+sort1 sorted5000 0m0.035s random5000 0m0.84s reversed5000 0m0.081s
+
+sort2 sorted5000 0m0.034s random5000 0m0.030s reversed5000 0m0.029s
+
+sort3 sorted5000 0m0.068s random5000 0m0.054s reversed5000 0m0.052s
